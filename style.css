@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #FFF5E1;
+  color: #6B4226;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #F8C471;
+  border-color: #E5AB5C;
+}
+
+.btn-primary:hover {
+  background-color: #E5AB5C;
+  border-color: #D99A4D;
+}
+
+header {
+  background-color: #FFC1CC;
+  color: #6B4226;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header h3 {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.descricao img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.descricao p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.prova-social h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #6B4226;
+}
+
+.prova-social p {
+  margin: 0.5rem 0;
+  font-style: italic;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.formulario input {
+  padding: 0.8rem;
+  border: 1px solid #6B4226;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.formulario input[type="submit"] {
+  background-color: #F8C471;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: #E5AB5C;
+}
+
+.beneficios {
+  background-color: #FFC1CC;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.beneficios h3 {
+  font-size: 1.8rem;
+  color: #6B4226;
+}
+
+.beneficios img {
+  max-width: 100px;
+  margin: 1rem 0;
+}
+
+.cta {
+  background-color: #6B4226;
+  color: #FFF5E1;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cta h4 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.cta button {
+  padding: 1rem 2rem;
+  background-color: #F8C471;
+  color: #FFF;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cta button:hover {
+  background-color: #E5AB5C;
+}
